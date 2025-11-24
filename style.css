@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #f9f9f9, #e0f7fa);
+  background-color: gold;
 }
 
 /* Navbar */
@@ -17,7 +17,7 @@ header {
   align-items: center;
 }
 .logo h1 {
-  color:white;
+  color:gold;
   margin: 0;
   font-size: 24px;
   font-weight: bold;
@@ -30,12 +30,12 @@ header ul {
   padding: 0;
 }
 header ul li a {
-  color: white;
+  color: gold;
   text-decoration: none;
   font-weight: bold;
 }
 header ul li a:hover {
-  color: aqua;
+  color:white;
 }
 
 /* Sections */
@@ -53,7 +53,8 @@ section {
 }
 .card {
   width: 18rem;
-  background: #fff;
+  background:#333;
+  color: gold;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -72,12 +73,12 @@ section {
 
 /* Contact Form */
 #contact {
-  background: #f1f8ff;
+  background: gold ;
 }
 .form-container {
   max-width: 600px;
   margin: auto;
-  background: #fff;
+  background:gold;
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -100,7 +101,7 @@ section {
   border-radius: 4px;
 }
 form button {
-  background-color:aqua;
+  background-color:black;
   color: white;
   padding: 12px;
   border: none;
@@ -110,23 +111,27 @@ form button {
   font-size: 16px;
 }
 form button:hover {
-  background-color:#333;
+  background-color:gold;
 }
 .footer{
   background: #333;
-  color:aquamarine;
+  color:gold;
   padding: 10px 20px;
   text-align: center;
 }
 .contact-icons a {
   background-color: #333;
-  color: aqua;
+  color:white;
   margin: 10px;
   font-size: 24px;
-  color: white;
+  color:gold;
   text-align: center;
 }
 
 .contact-icons a:hover {
-  color:aqua;
+  color:white;
+}
+.div{
+  background-color:#333;
+  color: gold;
 }
