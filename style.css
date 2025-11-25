@@ -3,7 +3,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: gold;
+  background-color:#333;
+  color: gold;
 }
 
 /* Navbar */
@@ -73,12 +74,12 @@ section {
 
 /* Contact Form */
 #contact {
-  background: gold ;
+  background: #333 ;
 }
 .form-container {
   max-width: 600px;
   margin: auto;
-  background:gold;
+  background:#333;
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -91,7 +92,7 @@ section {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #333;
+  color: gold ;
 }
 .form-group input,
 .form-group select {
@@ -132,6 +133,12 @@ form button:hover {
   color:white;
 }
 .div{
-  background-color:#333;
+  background-color:gold;
+  color: #333;
+}
+.h2{
+  color:gold;
+}
+.p{
   color: gold;
 }
